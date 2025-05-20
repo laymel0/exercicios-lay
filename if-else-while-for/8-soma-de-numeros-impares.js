@@ -6,3 +6,14 @@
  * 
  * operação: numero % 2 !== 0
  */
+
+let number = 1;
+let count = 0;
+
+while (number <= 100) {
+    if (number % 2 !== 0) {
+        count += number;
+    }
+    number ++
+}
+console.log(`A soma de todos os números impares de 1 a 100 é ${count}`);
